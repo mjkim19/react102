@@ -1,0 +1,15 @@
+li {
+  display: inline-block;
+  margin: 0 40px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
