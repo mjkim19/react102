@@ -10,7 +10,7 @@ class Chefs extends Component {
             <span class="title">Title<br/></span>
             <span class="context">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis non ipsum rem.</span>
           </div>
-          <img src="/chef.png"/>
+          <img src="./chef.png" alt=""/>
         </div>
       </div>
     )

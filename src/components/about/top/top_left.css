@@ -1,0 +1,6 @@
+.top_left {
+  float: left;
+  background-image: url("./chef_about.png");
+  width: 750px;
+  height: 500px;
+}

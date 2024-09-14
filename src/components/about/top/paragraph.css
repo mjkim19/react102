@@ -1,0 +1,10 @@
+.paragraph {
+  width: 210px;
+  height: 210px;
+  padding: 20px;
+}
+
+.paragraph>.title {
+  font-size: 20px;
+  font-weight: bold;
+}
