@@ -17,7 +17,7 @@ class App extends Component {
           <IconTitle></IconTitle>
           <IconBox></IconBox>
           <Chefs></Chefs>
-          </div>
+        </div>
       </Router>
     );
   }

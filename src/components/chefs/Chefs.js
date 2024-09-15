@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Chefs.css';
+import chefImg from './chef.png';
 
 class Chefs extends Component {
   render() {
@@ -10,7 +11,7 @@ class Chefs extends Component {
             <span class="title">Title<br/></span>
             <span class="context">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis non ipsum rem.</span>
           </div>
-          <img src="./chef.png" alt=""/>
+          <img src={chefImg} alt=""/>
         </div>
       </div>
     )

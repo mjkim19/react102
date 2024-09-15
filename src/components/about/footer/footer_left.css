@@ -1,0 +1,18 @@
+.footer_left {
+  float: left;
+  width: 750px;
+  height: 40px;
+  background-color: rgb(156, 155, 168);
+}
+
+.footer_left>ul {
+  list-style: none;
+}
+
+#footer>.footer_left>ul>li {
+  display: inline-block;
+}
+
+#footer>.footer_left>ul>.even {
+  color: orange;
+}

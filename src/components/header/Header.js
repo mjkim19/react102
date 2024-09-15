@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import HeaderButton from './HeaderButton';
+import logoImage from './logo.png';
 
 class Header extends Component {
   render() {
@@ -9,7 +10,7 @@ class Header extends Component {
           <HeaderButton link="#" menu="How it works"></HeaderButton>
           <HeaderButton link="#" menu="Gifts"></HeaderButton>
           <HeaderButton link="/about" menu="About"></HeaderButton>
-          <li style={{ display: "inline-block", margin: "33px 0px 40px"}}><img src="./logo.png" alt=""/></li>
+          <li style={{ display: "inline-block", margin: "33px 0px 40px"}}><img src={logoImage} alt=""/></li>
           <HeaderButton link="#" menu="Login"></HeaderButton>
           <HeaderButton link="#" menu="Members"></HeaderButton>
           <HeaderButton link="#" menu="Contacts"></HeaderButton>

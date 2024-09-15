@@ -1,5 +1,6 @@
 import { React, Component } from 'react';
 import './box_all_left.css';
+import BoxAllBox from './box_all_box';
 
 class BoxAllLeft extends Component {
   render() {

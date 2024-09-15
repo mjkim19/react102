@@ -1,0 +1,7 @@
+.box_all_right {
+  display: inline-block;
+  width: 210px;
+  height: 460px;
+  padding: 20px;
+  background-color: yellow;
+}

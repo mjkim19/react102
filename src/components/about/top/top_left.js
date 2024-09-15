@@ -1,5 +1,6 @@
 import { React, Component } from 'react';
 import './top_left.css';
+import TopBox from './top_box';
 
 class TopLeft extends Component {
   render() {

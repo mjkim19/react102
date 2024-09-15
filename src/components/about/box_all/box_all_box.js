@@ -5,7 +5,7 @@ class BoxAllBox extends Component {
   render() {
     const { title, context, box } = this.props;
     return (
-      <div className={`box_all_box ${className}`}>
+      <div className={`box_all_box ${box}`}>
         {title && <span className="title">{title}</span>}
         {context && <span className="context">{context}</span>}
       </div>
