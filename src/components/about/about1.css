@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: "맑은 고딕"
+}
+
+#top {
+  width: 1000px;
+  height: 500px;
+  margin: 30px auto 0;
+}
+
+#top>.top_left {
+  float: left;
+  background-image: url("/chef_about.png");
+  width: 750px;
+  height: 500px;
+}
+
+#top>.top_left>.top_box {
+  width: 250px;
+  height: 250px;
+  background-color: rgb(0, 255, 0, 0.5);
+  margin-top: 250px;
+}
+
+#top>.top_left>.top_box>.paragraph {
+  width: 210px;
+  height: 210px;
+  padding: 20px;
+}
+
+#top>.top_left>.top_box>.paragraph>.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#top>.top_right {
+  display: inline-block;
+  width: 250px;
+  height: 500px;
+}
+
+#top>.top_right>.right1 {
+  width: 250px;
+  height: 250px;
+  background-image: url("/right1.png");
+}
+
+#top>.top_right>.right2 {
+  width: 250px;
+  height: 250px;
+  background-image: url("/right2.png");
+}
+
+#box_all {
+  width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+#box_all>.box_all_left {
+  float: left;
+  width: 750px;
+  height: 500px;
+}
+
+#box_all>.box_all_left>.box_all_box {
+  float: left;
+  width: 210px;
+  height: 210px;
+  padding: 20px;
+}
+
+#box_all>.box_all_left>.box_all_box>.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#box_all>.box_all_left>.box_all_box:nth-child(odd) {
+  background-color: rgb(255, 102, 0)
+}
+
+#box_all>.box_all_left>.box_all_box:nth-child(even) {
+  background-color: rgb(95, 94, 113)
+}
+
+#box_all>.box_all_right {
+  display: inline-block;
+  width: 210px;
+  height: 460px;
+  padding: 20px;
+  background-color: yellow;
+}
+
+#footer {
+  width: 1000px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+#footer>.footer_left {
+  float: left;
+  width: 750px;
+  height: 40px;
+  background-color: rgb(156, 155, 168)
+}
+
+#footer>.footer_left>ul {
+  list-style: none;
+}
+
+#footer>.footer_left>ul>li {
+  display: inline-block;
+}
+
+#footer>.footer_left>ul>li:nth-child(even) {
+  color: orange;
+}
+
+#footer>.footer_right {
+  display: inline-block;
+  width: 250px;
+  height: 40px;
+  background-color: pink;
+}

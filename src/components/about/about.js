@@ -6,7 +6,7 @@ import Footer from './footer/footer';
 class About extends Component {
   render() {
     return (
-      <div>
+      <div class="about">
         <Top />
         <BoxAll />
         <Footer />
