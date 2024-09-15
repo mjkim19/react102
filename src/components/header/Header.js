@@ -15,7 +15,7 @@ class Header extends Component {
           <HeaderButton link="#" menu="Members"></HeaderButton>
           <HeaderButton link="#" menu="Contacts"></HeaderButton>
         </ul>
-        </div>
+      </div>
     );
   }
 }
