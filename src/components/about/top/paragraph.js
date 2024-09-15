@@ -7,7 +7,7 @@ class Paragraph extends Component {
       <div className="paragraph">
         <span class="title">GLOBAL<br/>BUSINESS<br/><br/></span>
         <span class="context">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quaerat tenetur
-        sint, excepturi voluptate reiciendis ipsum sunt vitae harum accusamus alias saepe.</span>
+        sint.</span>
       </div>
     )
   }

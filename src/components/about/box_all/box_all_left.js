@@ -7,13 +7,13 @@ class BoxAllLeft extends Component {
     return (
       <div className="box_all_left">
         <BoxAllBox title="Title" context="Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam commodi nesciunt odit
-        voluptatum explicabo deleniti itaque exercitationem. " box="odd"/>
+        voluptatum explicabo deleniti itaque exercitationem. " box="oddBox"/>
         <BoxAllBox title="Title" context="Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam commodi nesciunt odit
-        voluptatum explicabo deleniti itaque exercitationem. " box="even"/>
-        <BoxAllBox context="3" box="odd" />
-        <BoxAllBox context="4" box="even"/>
-        <BoxAllBox context="5" box="odd" />
-        <BoxAllBox context="6" box="even"/>
+        voluptatum explicabo deleniti itaque exercitationem. " box="evenBox"/>
+        <BoxAllBox context="3" box="oddBox" />
+        <BoxAllBox context="4" box="evenBox"/>
+        <BoxAllBox context="5" box="oddBox" />
+        <BoxAllBox context="6" box="evenBox"/>
       </div>
     )
   }

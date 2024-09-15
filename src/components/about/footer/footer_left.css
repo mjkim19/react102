@@ -9,10 +9,10 @@
   list-style: none;
 }
 
-#footer>.footer_left>ul>li {
+.footer_left>ul>li {
   display: inline-block;
 }
 
-#footer>.footer_left>ul>.even {
+.footer_left>ul>.even {
   color: orange;
 }

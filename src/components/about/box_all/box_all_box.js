@@ -6,7 +6,7 @@ class BoxAllBox extends Component {
     const { title, context, box } = this.props;
     return (
       <div className={`box_all_box ${box}`}>
-        {title && <span className="title">{title}</span>}
+        {title && <span className="title">{title}<br/><br/></span>}
         {context && <span className="context">{context}</span>}
       </div>
     )

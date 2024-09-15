@@ -5,15 +5,16 @@
   padding: 20px;
 }
 
-.odd {
-  background-color: rgb(255, 102, 0)
-}
-
-.even {
-  background-color: rgb(95, 94, 113)
-}
-
-.title {
+.box_all_box>.title {
   font-size: 20px;
   font-weight: bold;
 }
+
+.oddBox {
+  background-color: rgb(255, 102, 0)
+}
+
+.evenBox {
+  background-color: rgb(95, 94, 113)
+}
+

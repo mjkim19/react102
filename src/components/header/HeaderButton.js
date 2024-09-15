@@ -5,9 +5,9 @@ import { NavLink } from 'react-router-dom';
 class HeaderButton extends Component {
   render() {
     return (
-      <>
+      <div className="HeaderButton">
         <li><NavLink to={this.props.link}>{this.props.menu}</NavLink></li>
-      </>
+      </div>
     )
   }
 }
